@@ -5,23 +5,39 @@ EK FinTech Consulting, LLC developed this prototype program for Credit Union X f
 * Assess their monthly budgets
 * Forecast a reasonably effective retirement plan based on their current combined holdings of cryptocurrencies, stocks, and bonds
 
----
-
-## Technologies
-
-*Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.*
+The *Usage* section describes the specific tools with which to carry out these objectives.
 
 ---
 
 ## Installation Guide
 
-*In this section, you should include detailed installation notes containing code blocks and screenshots.*
+Ensure through your local terminal that your development environment supports the following imports and dependencies:
+
+```python
+import os
+import requests
+import json
+import pandas as pd
+from dotenv import load_dotenv
+import alpaca_trade_api as tradeapi
+from MCForecastTools import MCSimulation
+
+%matplotlib inline
+```
+
+If it does not, reference your terminal installation guide to download the missing software.
 
 ---
 
 ## Usage
 
-*This section should include screenshots, code blocks, or animations explaining how to use your project.*
+Tools for 
+
+1. A financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund.
+
+2. A financial planner for retirement. This tool will forecast the performance of their retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations.
+
+You’ll use the information from the Monte Carlo simulation to answer questions about the portfolio in your Jupyter notebook.
 
 ---
 
