@@ -1,4 +1,7 @@
-# Project Title
+# 5: Financial Simulations with APIs - Statistics & Monte Carlo Simulations
+FinTech Boot Camp Module 5 Challenge
+
+---
 
 EK FinTech Consulting, LLC developed this prototype program for Credit Union X for client financial health evaluations. The two primary purposes of this program are to enable clients to:
 
